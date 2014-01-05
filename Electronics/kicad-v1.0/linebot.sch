@@ -1,0 +1,491 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino
+LIBS:misc
+LIBS:linebot-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LineBot - Based on playwithrobots.com"
+Date "3 jan 2014"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D1
+U 1 1 52C49F50
+P 2550 1850
+F 0 "D1" H 2550 1950 50  0000 C CNN
+F 1 "LED" H 2550 1750 50  0000 C CNN
+F 2 "~" H 2550 1850 60  0000 C CNN
+F 3 "~" H 2550 1850 60  0000 C CNN
+F 4 "Jameco" H 2550 1850 60  0001 C CNN "Company"
+F 5 "OP294" H 2550 1850 60  0001 C CNN "PN"
+	1    2550 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 52C4AB24
+P 2000 2700
+F 0 "R1" V 2080 2700 40  0000 C CNN
+F 1 "10k" V 2007 2701 40  0000 C CNN
+F 2 "~" V 1930 2700 30  0000 C CNN
+F 3 "~" H 2000 2700 30  0000 C CNN
+	1    2000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 52C4AB33
+P 2550 2700
+F 0 "R2" V 2630 2700 40  0000 C CNN
+F 1 "100" V 2557 2701 40  0000 C CNN
+F 2 "~" V 2480 2700 30  0000 C CNN
+F 3 "~" H 2550 2700 30  0000 C CNN
+	1    2550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 52C4ADA8
+P 900 1800
+F 0 "K1" V 850 1800 50  0000 C CNN
+F 1 "CONN_3" V 950 1800 40  0000 C CNN
+F 2 "" H 900 1800 60  0000 C CNN
+F 3 "" H 900 1800 60  0000 C CNN
+	1    900  1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_3 K2
+U 1 1 52C4ADB7
+P 3000 1800
+F 0 "K2" V 2950 1800 50  0000 C CNN
+F 1 "CONN_3" V 3050 1800 40  0000 C CNN
+F 2 "" H 3000 1800 60  0000 C CNN
+F 3 "" H 3000 1800 60  0000 C CNN
+	1    3000 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D2
+U 1 1 52C49FAB
+P 4750 1850
+F 0 "D2" H 4750 1950 50  0000 C CNN
+F 1 "LED" H 4750 1750 50  0000 C CNN
+F 2 "~" H 4750 1850 60  0000 C CNN
+F 3 "~" H 4750 1850 60  0000 C CNN
+F 4 "Jameco" H 4750 1850 60  0001 C CNN "Company"
+F 5 "OP294" H 4750 1850 60  0001 C CNN "PN"
+	1    4750 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 52C4AB42
+P 4150 2700
+F 0 "R3" V 4230 2700 40  0000 C CNN
+F 1 "10k" V 4157 2701 40  0000 C CNN
+F 2 "~" V 4080 2700 30  0000 C CNN
+F 3 "~" H 4150 2700 30  0000 C CNN
+	1    4150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 52C4AB51
+P 4750 2700
+F 0 "R4" V 4830 2700 40  0000 C CNN
+F 1 "100" V 4757 2701 40  0000 C CNN
+F 2 "~" V 4680 2700 30  0000 C CNN
+F 3 "~" H 4750 2700 30  0000 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+Text Notes 1500 3200 0    60   ~ 0
+Line sensors - connected to rest of circuit with 3 wire cables\nPin 1 - Ground\nPin 2 - IR Sense\nPin 3 - +5V
+$Comp
+L CONN_3 K3
+U 1 1 52C4FA56
+P 5900 2350
+F 0 "K3" V 5850 2350 50  0000 C CNN
+F 1 "CONN_3" V 5950 2350 40  0000 C CNN
+F 2 "" H 5900 2350 60  0000 C CNN
+F 3 "" H 5900 2350 60  0000 C CNN
+	1    5900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_3 K4
+U 1 1 52C4FA6D
+P 7900 2350
+F 0 "K4" V 7850 2350 50  0000 C CNN
+F 1 "CONN_3" V 7950 2350 40  0000 C CNN
+F 2 "" H 7900 2350 60  0000 C CNN
+F 3 "" H 7900 2350 60  0000 C CNN
+	1    7900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L BATTERY BT1
+U 1 1 52C4FB2F
+P 1250 4850
+F 0 "BT1" H 1250 5050 50  0000 C CNN
+F 1 "BATTERY" H 1250 4660 50  0000 C CNN
+F 2 "~" H 1250 4850 60  0000 C CNN
+F 3 "~" H 1250 4850 60  0000 C CNN
+	1    1250 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 52C4FBCD
+P 2200 4450
+F 0 "SW1" H 2200 4550 70  0000 C CNN
+F 1 "SPST" H 2200 4350 70  0000 C CNN
+F 2 "~" H 2200 4450 60  0000 C CNN
+F 3 "~" H 2200 4450 60  0000 C CNN
+	1    2200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7805 U3
+U 1 1 52C4FC01
+P 3250 4500
+F 0 "U3" H 3400 4304 60  0000 C CNN
+F 1 "7805" H 3250 4700 60  0000 C CNN
+F 2 "~" H 3250 4500 60  0000 C CNN
+F 3 "~" H 3250 4500 60  0000 C CNN
+	1    3250 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1700 1250 1150
+Wire Wire Line
+	1250 1150 2550 1150
+Wire Wire Line
+	2550 1150 2550 1650
+Wire Wire Line
+	2000 1150 2000 1650
+Connection ~ 2000 1150
+Wire Wire Line
+	2550 2050 2550 2450
+Wire Wire Line
+	2000 2050 2000 2450
+Wire Wire Line
+	2550 2950 2550 3050
+Wire Wire Line
+	2550 3050 1250 3050
+Wire Wire Line
+	1250 3050 1250 1900
+Wire Wire Line
+	2000 2950 2000 3050
+Connection ~ 2000 3050
+Wire Wire Line
+	2000 2400 1450 2400
+Wire Wire Line
+	1450 2400 1450 1800
+Wire Wire Line
+	1450 1800 1250 1800
+Connection ~ 2000 2400
+Wire Wire Line
+	3350 1700 3350 1150
+Wire Wire Line
+	3350 1150 4750 1150
+Wire Wire Line
+	4750 1150 4750 1650
+Wire Wire Line
+	4750 2050 4750 2450
+Wire Wire Line
+	4750 2950 4750 3050
+Wire Wire Line
+	4750 3050 3350 3050
+Wire Wire Line
+	3350 3050 3350 1900
+Wire Wire Line
+	4150 2050 4150 2450
+Wire Wire Line
+	4150 2950 4150 3050
+Connection ~ 4150 3050
+Wire Wire Line
+	4150 1150 4150 1650
+Connection ~ 4150 1150
+Wire Wire Line
+	3350 1800 3600 1800
+Wire Wire Line
+	3600 1800 3600 2400
+Wire Wire Line
+	3600 2400 4150 2400
+Connection ~ 4150 2400
+Wire Notes Line
+	5050 900  5050 3500
+Wire Notes Line
+	5050 900  700  900 
+Wire Notes Line
+	700  900  700  3500
+Wire Notes Line
+	700  3500 5050 3500
+Wire Wire Line
+	1250 4550 1250 4450
+Wire Wire Line
+	1250 4450 1700 4450
+Wire Wire Line
+	2700 4450 2850 4450
+Wire Wire Line
+	1250 5150 3250 5150
+Wire Wire Line
+	3250 5150 3250 4750
+Wire Wire Line
+	3650 4450 3800 4450
+Text GLabel 3800 4450 2    60   BiDi ~ 0
+5V
+Text GLabel 3250 4950 0    60   BiDi ~ 0
+GND
+Wire Wire Line
+	2750 4050 2750 4450
+Connection ~ 2750 4450
+Text GLabel 2750 4050 0    60   BiDi ~ 0
+9V
+$Comp
+L POT RV1
+U 1 1 52C4FD41
+P 6600 2850
+F 0 "RV1" H 6600 2750 50  0000 C CNN
+F 1 "10k" H 6600 2850 50  0000 C CNN
+F 2 "~" H 6600 2850 60  0000 C CNN
+F 3 "~" H 6600 2850 60  0000 C CNN
+	1    6600 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 52C4FE15
+P 6950 2350
+F 0 "Q1" H 6950 2200 50  0000 R CNN
+F 1 "NPN" H 6950 2500 50  0000 R CNN
+F 2 "~" H 6950 2350 60  0000 C CNN
+F 3 "~" H 6950 2350 60  0000 C CNN
+	1    6950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 M1
+U 1 1 52C4FE6D
+P 7400 1700
+F 0 "M1" V 7350 1700 40  0000 C CNN
+F 1 "CONN_2" V 7450 1700 40  0000 C CNN
+F 2 "" H 7400 1700 60  0000 C CNN
+F 3 "" H 7400 1700 60  0000 C CNN
+	1    7400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 52C4FE7C
+P 6600 1700
+F 0 "D3" H 6600 1800 40  0000 C CNN
+F 1 "DIODE" H 6600 1600 40  0000 C CNN
+F 2 "~" H 6600 1700 60  0000 C CNN
+F 3 "~" H 6600 1700 60  0000 C CNN
+	1    6600 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 1900 6600 1950
+Wire Wire Line
+	6600 1950 7050 1950
+Wire Wire Line
+	7050 1800 7050 2150
+Connection ~ 7050 1950
+Wire Wire Line
+	6600 1500 6600 1300
+Wire Wire Line
+	6600 1300 7050 1300
+Wire Wire Line
+	7050 1300 7050 1600
+Wire Wire Line
+	6250 2350 6750 2350
+Wire Wire Line
+	6600 2600 6600 2350
+Connection ~ 6600 2350
+Wire Wire Line
+	6250 2450 6250 3250
+Wire Wire Line
+	6250 3250 7050 3250
+Wire Wire Line
+	7050 3250 7050 2550
+Wire Wire Line
+	6450 2850 6250 2850
+Connection ~ 6250 2850
+Wire Wire Line
+	6250 2250 6250 1950
+Wire Wire Line
+	6850 1300 6850 1150
+Connection ~ 6850 1300
+Text GLabel 6850 1150 0    60   Input ~ 0
+9V
+Text GLabel 6250 1950 0    60   Input ~ 0
+5V
+Text GLabel 6250 2850 0    60   Input ~ 0
+GND
+$Comp
+L CONN_2 M2
+U 1 1 52C50213
+P 9400 1700
+F 0 "M2" V 9350 1700 40  0000 C CNN
+F 1 "CONN_2" V 9450 1700 40  0000 C CNN
+F 2 "" H 9400 1700 60  0000 C CNN
+F 3 "" H 9400 1700 60  0000 C CNN
+	1    9400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D4
+U 1 1 52C50222
+P 8600 1700
+F 0 "D4" H 8600 1800 40  0000 C CNN
+F 1 "DIODE" H 8600 1600 40  0000 C CNN
+F 2 "~" H 8600 1700 60  0000 C CNN
+F 3 "~" H 8600 1700 60  0000 C CNN
+	1    8600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L POT RV2
+U 1 1 52C50231
+P 8600 2850
+F 0 "RV2" H 8600 2750 50  0000 C CNN
+F 1 "10k" H 8600 2850 50  0000 C CNN
+F 2 "~" H 8600 2850 60  0000 C CNN
+F 3 "~" H 8600 2850 60  0000 C CNN
+	1    8600 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN Q2
+U 1 1 52C50240
+P 8950 2350
+F 0 "Q2" H 8950 2200 50  0000 R CNN
+F 1 "NPN" H 8950 2500 50  0000 R CNN
+F 2 "~" H 8950 2350 60  0000 C CNN
+F 3 "~" H 8950 2350 60  0000 C CNN
+	1    8950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2450 8250 3250
+Wire Wire Line
+	8250 2850 8450 2850
+Wire Wire Line
+	8250 3250 9050 3250
+Wire Wire Line
+	9050 3250 9050 2550
+Connection ~ 8250 2850
+Wire Wire Line
+	9050 2150 9050 1800
+Wire Wire Line
+	8600 1900 8600 1950
+Wire Wire Line
+	8600 1950 9050 1950
+Connection ~ 9050 1950
+Wire Wire Line
+	8600 1500 8600 1300
+Wire Wire Line
+	8600 1300 9050 1300
+Wire Wire Line
+	9050 1300 9050 1600
+Wire Wire Line
+	8850 1300 8850 1150
+Connection ~ 8850 1300
+Wire Wire Line
+	8250 2350 8750 2350
+Wire Wire Line
+	8600 2600 8600 2350
+Connection ~ 8600 2350
+Wire Wire Line
+	8250 2250 8250 1950
+Text GLabel 8850 1150 0    60   Input ~ 0
+9V
+Text GLabel 8250 1950 0    60   Input ~ 0
+5V
+Text GLabel 8250 2850 0    60   Input ~ 0
+GND
+Wire Notes Line
+	5600 3500 5600 900 
+Wire Notes Line
+	5600 900  9900 900 
+Wire Notes Line
+	9900 900  9900 3500
+Wire Notes Line
+	9900 3500 5600 3500
+Wire Notes Line
+	700  3800 700  5600
+Wire Notes Line
+	700  5600 5050 5600
+Wire Notes Line
+	5050 5600 5050 3800
+Wire Notes Line
+	5050 3800 700  3800
+$Comp
+L LED U1
+U 1 1 52C641AB
+P 2000 1850
+F 0 "U1" H 2000 1950 50  0000 C CNN
+F 1 "LED" H 2000 1750 50  0000 C CNN
+F 2 "~" H 2000 1850 60  0000 C CNN
+F 3 "~" H 2000 1850 60  0000 C CNN
+F 4 "Jameco" H 2000 1850 60  0001 C CNN "Company"
+F 5 "OP294" H 2000 1850 60  0001 C CNN "PN"
+	1    2000 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED U2
+U 1 1 52C64318
+P 4150 1850
+F 0 "U2" H 4150 1950 50  0000 C CNN
+F 1 "LED" H 4150 1750 50  0000 C CNN
+F 2 "~" H 4150 1850 60  0000 C CNN
+F 3 "~" H 4150 1850 60  0000 C CNN
+F 4 "Jameco" H 4150 1850 60  0001 C CNN "Company"
+F 5 "OP294" H 4150 1850 60  0001 C CNN "PN"
+	1    4150 1850
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

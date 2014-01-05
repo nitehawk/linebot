@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 1/2/2014 11:39:03 PM
+
+BeginCmp
+TimeStamp = /52C4FB2F;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C49F50;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C49FAB;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FE7C;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C50222;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4ADA8;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4ADB7;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FA56;
+Reference = K3;
+ValeurCmp = CONN_3;
+IdModule  = PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FA6D;
+Reference = K4;
+ValeurCmp = CONN_3;
+IdModule  = PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FE6D;
+Reference = M1;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C50213;
+Reference = M2;
+ValeurCmp = CONN_2;
+IdModule  = PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FE15;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C50240;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4AB24;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4AB33;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4AB42;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4AB51;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FD41;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = POACCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C50231;
+Reference = RV2;
+ValeurCmp = 10k;
+IdModule  = POACCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FBCD;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = DIPS-DS01;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C641AB;
+Reference = U1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C64318;
+Reference = U2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /52C4FC01;
+Reference = U3;
+ValeurCmp = 7805;
+IdModule  = LM78XX;
+EndCmp
+
+EndListe
